@@ -1,0 +1,19 @@
+{
+  "name": "wether",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.61.0",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "normalize.css": "^8.0.1"
+  }
+}

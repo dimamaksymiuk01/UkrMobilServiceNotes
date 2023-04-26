@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKRmobil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  </head>
+  <body>
+    
+    <div class="preloader" id="preloader">
+      <div id="fountainG">
+        <div id="fountainG_1" class="fountainG"></div>
+        <div id="fountainG_2" class="fountainG"></div>
+        <div id="fountainG_3" class="fountainG"></div>
+        <div id="fountainG_4" class="fountainG"></div>
+        <div id="fountainG_5" class="fountainG"></div>
+        <div id="fountainG_6" class="fountainG"></div>
+        <div id="fountainG_7" class="fountainG"></div>
+        <div id="fountainG_8" class="fountainG"></div>
+      </div>
+    </div>
+
+    <div class="load"></div>
+
+    <h1>UKRmobil service notes</h1>
+
+    <div class="container">
+
+      <div>
+        <select class="sender" name="sender" id="sender">
+          <option id="sender">Techno+</option>
+          <option id="sender">UkrMobil</option>
+          <option id="sender">Prom</option>
+          <option id="sender">OLX</option>
+          <option id="sender">VsePlus</option>
+          <option id="sender">Other</option>
+        </select>
+      </div>
+
+
+      <div class="form__group">
+        <input type="text" class="form__input" id="name" placeholder="Client name" required="" />
+        <label for="name" class="form__label" id="cityLabel">Enter name</label>
+      </div>
+
+      <div class="form__group">
+        <input type="text" class="form__input" id="phone" placeholder="Client phone" required="" />
+        <label for="name" class="form__label" id="cityLabel">Enter phone</label>
+      </div>
+
+      <div class="form__group">
+        <input type="text" class="form__input" id="model" placeholder="Device model" required="" />
+        <label for="name" class="form__label" id="cityLabel">Enter the model</label>
+      </div>
+
+      <div class="form__group">
+        <input type="text" class="form__input" id="product" placeholder="Expected product" required="" />
+        <label for="name" class="form__label" id="cityLabel">Enter product</label>
+      </div>
+
+      <div class="date">
+        <label for="start">Date of arrival:</label>
+        <input id="date" type="date">
+      </div>
+    </div>
+
+    <button id="btn" class="bubbly-button">Add</button>
+
+
+    <div class="userInfo"></div>
+
+
+
+    <script type="module" src="/public/js/main.js"></script>
+</html>
